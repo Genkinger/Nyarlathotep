@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GLAD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD">
+				<Option output="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/include"/>
+					<Add directory="/nix/store/794krcl4djpr2lvxjnkdakhkxdnrnybh-glfw-3.2.1/include"/>
+					<Add directory="/nix/store/8p51k20rpp490r35m09g3p0n1qhxmljx-libGL-1.0.0-dev/include"/>
+					<Add directory="/nix/store/rin1ccsjrmwyh28bx11hq0ff0dscxlfa-glm-0.9.8.5/include"/>
+					<Add directory="/nix/store/4y3h52774qwhahp9p1ra1gdlmcgvchci-glew-2.1.0-dev/include"/>
+					<Add directory="/nix/store/g2n96064ffxp19b13awqwyym9kjsixgh-glu-9.0.0-dev/include"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/../../../../include/c++/7.4.0"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/../../../../include/c++/7.4.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/include"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/include-fixed"/>
+					<Add directory="/nix/store/sr4253np2gz2bpha4gn8gqlmiw604155-glibc-2.27-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLAD"/>
+					<CompileFile command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GLAD/fast">
+				<Option output="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/include"/>
+					<Add directory="/nix/store/794krcl4djpr2lvxjnkdakhkxdnrnybh-glfw-3.2.1/include"/>
+					<Add directory="/nix/store/8p51k20rpp490r35m09g3p0n1qhxmljx-libGL-1.0.0-dev/include"/>
+					<Add directory="/nix/store/rin1ccsjrmwyh28bx11hq0ff0dscxlfa-glm-0.9.8.5/include"/>
+					<Add directory="/nix/store/4y3h52774qwhahp9p1ra1gdlmcgvchci-glew-2.1.0-dev/include"/>
+					<Add directory="/nix/store/g2n96064ffxp19b13awqwyym9kjsixgh-glu-9.0.0-dev/include"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/../../../../include/c++/7.4.0"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/../../../../include/c++/7.4.0/x86_64-unknown-linux-gnu"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/../../../../include/c++/7.4.0/backward"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/include"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include"/>
+					<Add directory="/nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/lib/gcc/x86_64-unknown-linux-gnu/7.4.0/include-fixed"/>
+					<Add directory="/nix/store/sr4253np2gz2bpha4gn8gqlmiw604155-glibc-2.27-dev/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 GLAD/fast"/>
+					<CompileFile command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/nix/store/8n7v99ii7cg694pz0cfch422zvkdqfv4-gnumake-4.2.1/bin/make -j12 -f &quot;/home/genkinger/repos/Nyarlathotep/Contrib/Glad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/src/glad.c">
+			<Option target="GLAD"/>
+		</Unit>
+		<Unit filename="/home/genkinger/repos/Nyarlathotep/Contrib/Glad/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
