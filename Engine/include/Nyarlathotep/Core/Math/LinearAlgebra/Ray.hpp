@@ -7,14 +7,13 @@
 
 #include "Vector.hpp"
 
-namespace Ny::Math::LinearAlgebra{
+namespace ny::math::lin {
 
     template<int N, typename T>
-    class Ray{
-        Vector<N,T> mRayDirection = {0};
-        Vector<N,T> mRayOrigin = {0};
+    class Ray {
+        Vector<N, T> mRayDirection = {0};
+        Vector<N, T> mRayOrigin = {0};
     };
-
 }
 
 #endif //NYARLATHOTEP_RAY_HPP

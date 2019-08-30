@@ -9,7 +9,7 @@
 
 #include <ostream>
 
-namespace Ny::Math::LinearAlgebra {
+namespace ny::math::lin {
 
     template<int ROWS, int COLS, typename T>
     class Matrix {

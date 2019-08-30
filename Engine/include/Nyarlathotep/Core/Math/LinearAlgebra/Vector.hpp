@@ -7,7 +7,7 @@
 
 #include <cmath>
 
-namespace Ny::Math::LinearAlgebra {
+namespace ny::math::lin {
 
     template<int N, typename T>
     class Vector {
@@ -27,6 +27,10 @@ namespace Ny::Math::LinearAlgebra {
             }
             return sqrtf(result);
         }
+
+        Vector<N,T> normalized() const{
+            return *this/norm();
+        };
 
         T &operator[](int idx) {
             return m[idx];

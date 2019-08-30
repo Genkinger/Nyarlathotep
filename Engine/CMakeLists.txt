@@ -2,11 +2,16 @@ cmake_minimum_required(VERSION 3.13)
 
 project(Engine)
 
+set(CMAKE_BUILD_TYPE DEBUG)
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0")
+
+# GLAD
 add_subdirectory(Contrib/Glad)
 
-include_directories(src)
+include_directories(include)
 
-set(HEADERS src/core/math/linearalgebra/Vector.hpp src/core/math/linearalgebra/Matrix.hpp src/graphics/Window.hpp src/core/string/NString.hpp)
-set(SOURCES src/graphics/Window.cpp src/core/string/NString.cpp)
+file(GLOB_RECURSE HEADERS src/*.hpp) #TODO: CHANGE THESE
+file(GLOB_RECURSE SOURCES src/*.cpp) #TODO: CHANGE THESE
 
 add_library(${PROJECT_NAME} ${SOURCES} ${HEADERS})
+target_link_libraries(${PROJECT_NAME} GLAD glfw)
