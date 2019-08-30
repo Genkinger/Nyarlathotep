@@ -170,7 +170,7 @@ namespace ny::math::lin {
             return result;
         }
 
-        //TODO: this needs verification and tests
+        //TODO: this is broken
         Matrix<ROWS, COLS, T> rref() {
             auto result = *this;
             for (int i = 0; i < ROWS; i++) {

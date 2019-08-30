@@ -10,6 +10,9 @@
 using namespace ny;
 
 int main(int argc, char **argv) {
-
+    auto string = io::Filesystem::ReadTextFile("/etc/nixos/configuration.nix");
+    for(auto &line : string.lines()){
+        std::cout << NString("Line: ")+line << std::endl;
+    }
     return 0;
 }

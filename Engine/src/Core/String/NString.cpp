@@ -38,7 +38,6 @@ namespace ny {
 
     i32 NString::resize(i32 length) {
         char *buffer = new char[length];
-        memset(buffer, 0, length);
         if (length >= mLength) {
             std::copy(mBuffer, mBuffer + mLength, buffer);
         } else {
@@ -66,6 +65,10 @@ namespace ny {
     std::vector<NString> NString::split(char delimiter) const {
         return split(NString(delimiter));
     }
+    
+    std::vector<NString> NString::lines() const {
+        return split('\n');
+    }
 
     std::vector<NString> NString::split(const NString &delimiter) const {
         std::vector<i32> indices = findAll(delimiter);
@@ -88,6 +91,25 @@ namespace ny {
         return result;
     }
 
+    std::vector<NString> NString::splitRaw(const NString &delimiter) const {
+        std::vector<i32> indices = findAll(delimiter);
+        std::vector<NString> result;
+        std::vector<NString> tmp;
+        for (int i = 0; i < indices.size(); i++) {
+            NString s;
+            if (i == 0) {
+                tmp.push_back(substring(0, indices[i]));
+            } else {
+                i32 j = indices[i - 1] + delimiter.length();
+                tmp.push_back(substring(j, indices[i] - j));
+                if (i == indices.size() - 1) {
+                    tmp.push_back(substring(indices[i] + delimiter.length()));
+                }
+            }
+        }
+        return tmp;
+    }
+
 
     bool NString::contains(char c) const {
         return find(c) != -1;
@@ -107,6 +129,16 @@ namespace ny {
             if (result.mBuffer[i] == find) {
                 result.mBuffer[i] = replace;
             }
+        }
+        return result;
+    }
+
+    NString NString::replace(const NString &find, const NString &replace) const {
+        NString result;
+        auto parts = splitRaw(find);
+        if (parts.empty()) return *this;
+        for (int i = 0; i < parts.size(); i++) {
+            result += parts[i] + (i != parts.size() - 1 ? replace : "");
         }
         return result;
     }
