@@ -14,4 +14,4 @@ file(GLOB_RECURSE HEADERS src/*.hpp) #TODO: CHANGE THESE
 file(GLOB_RECURSE SOURCES src/*.cpp) #TODO: CHANGE THESE
 
 add_library(${PROJECT_NAME} ${SOURCES} ${HEADERS})
-target_link_libraries(${PROJECT_NAME} GLAD glfw)
+target_link_libraries(${PROJECT_NAME} GLAD glfw pthread)

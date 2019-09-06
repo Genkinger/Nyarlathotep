@@ -5,7 +5,7 @@
 #ifndef NYARLATHOTEP_SAMPLEMESSAGE_HPP
 #define NYARLATHOTEP_SAMPLEMESSAGE_HPP
 
-#include <Nyarlathotep/Core/String/NString.hpp>
+#include <Nyarlathotep/Core/String/NStringDepr.hpp>
 #include "Message.hpp"
 
 namespace ny{

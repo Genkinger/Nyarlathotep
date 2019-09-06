@@ -29,10 +29,29 @@ using f64 = double;
 #include <memory>
 #include <iostream>
 
-
-
-#include <Nyarlathotep/Core/String/NString.hpp>
+#include <Nyarlathotep/Core/String/String.hpp>
 
 #define BIT(x) 1 << x
+
+
+#include <climits>
+template <typename T>
+T swap_endian(T u)
+{
+    static_assert (CHAR_BIT == 8, "CHAR_BIT != 8");
+
+    union
+    {
+        T u;
+        unsigned char u8[sizeof(T)];
+    } source, dest;
+
+    source.u = u;
+
+    for (size_t k = 0; k < sizeof(T); k++)
+        dest.u8[k] = source.u8[sizeof(T) - k - 1];
+
+    return dest.u;
+}
 
 #endif //NYARLATHOTEP_CORE_HPP

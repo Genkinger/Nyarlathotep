@@ -2,17 +2,20 @@
 // Created by genkinger on 8/27/19.
 //
 
-#include <iostream>
-#include <Nyarlathotep/Nyarlathotep.hpp>
-#include <Nyarlathotep/Core/MessageBus/SampleMessage.hpp>
 
+#include <Nyarlathotep/Nyarlathotep.hpp>
 
 using namespace ny;
+using namespace ny::io;
+using namespace ny::resources;
 
 int main(int argc, char **argv) {
-    auto string = io::Filesystem::ReadTextFile("/etc/nixos/configuration.nix");
-    for(auto &line : string.lines()){
-        std::cout << NString("Line: ")+line << std::endl;
+    ResourceManager manager(500);
+    {
+        auto txt = manager.Get<FileResource>("/home/genkinger/tmp/test.txt", true);
+
+        String s = "\nTest.txt";
     }
+    std::cout << "IF THIS IS DISPLAYED FIRST MAYBE FIX REFCOUNT ETC." << std::endl;
     return 0;
 }

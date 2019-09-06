@@ -2,11 +2,11 @@
 // Created by genkinger on 8/27/19.
 //
 
-#include <Nyarlathotep/Core/String/NString.hpp>
+#include <Nyarlathotep/Core/String/NStringDepr.hpp>
 
 #include <cstring>
 
-namespace ny {
+namespace ny::depr {
 
     NString::~NString() {
         delete[] mBuffer;
@@ -65,7 +65,7 @@ namespace ny {
     std::vector<NString> NString::split(char delimiter) const {
         return split(NString(delimiter));
     }
-    
+
     std::vector<NString> NString::lines() const {
         return split('\n');
     }
@@ -166,7 +166,7 @@ namespace ny {
         return indices;
     }
 
-    std::vector<i32> NString::findAll(const ny::NString &string) const {
+    std::vector<i32> NString::findAll(const NString &string) const {
         std::vector<i32> indices;
         i32 count = mLength - string.mLength + 1;
 
@@ -178,7 +178,7 @@ namespace ny {
         return indices;
     }
 
-    i32 NString::find(const ny::NString &string) const {
+    i32 NString::find(const NString &string) const {
         if (string.mLength > mLength) return false;
         i32 count = mLength - string.mLength + 1;
 
@@ -286,7 +286,7 @@ namespace ny {
         return mBuffer[index];
     }
 
-    NString &NString::operator=(const ny::NString &other) {
+    NString &NString::operator=(const NString &other) {
         if (this != &other) {
             if (other.length() != mLength) {
                 delete[] mBuffer;

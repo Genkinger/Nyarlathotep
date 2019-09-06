@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Nyarlathotep" targetName="GLAD" />
       <config projectName="Nyarlathotep" targetName="Engine" />
       <config projectName="Nyarlathotep" targetName="Sandbox" />
+      <config projectName="Nyarlathotep" targetName="GLAD" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -14,10 +14,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59fab9a1-6890-423a-b54c-c0eb97ebafd1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/File.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Packet.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Socket.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/FarbfeldResource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/FileResource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/Resource.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/ResourceManager.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/String.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/src/Core/IO/File.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/src/Core/IO/Packet.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/src/Core/IO/Socket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/src/Core/Resources/FarbfeldResource.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/src/Core/Resources/FileResource.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/src/Core/Resources/Resource.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/src/Core/Resources/ResourceManager.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/src/Core/String/String.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Math/LinearAlgebra/Matrix.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Math/LinearAlgebra/Matrix.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NString.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NString.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Engine/src/Core/String/NString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Core/String/NString.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Core.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Core.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Filesystem.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/VirtualFilesystem.hpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/MessageBus/SampleMessage.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/MessageBus/SampleMessage.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NString.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NStringDepr.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Nyarlathotep.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/include/Nyarlathotep/Nyarlathotep.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/Core/IO/Filesystem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/Core/IO/VirtualFilesystem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/src/Core/String/NString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/src/Core/String/NStringDepr.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sandbox/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Sandbox/src/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -31,46 +55,99 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileColors">
+    <fileColor scope="Tests" color="0c3118" />
+    <fileColor scope="Local Unit Tests" color="0c3118" />
+    <fileColor scope="Android Instrumented Tests" color="0c3118" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sandbox/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/ResourceManager.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+              <folding>
+                <element signature="e#126#166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/src/Core/Resources/Resource.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/FileResource.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+              <folding>
+                <element signature="e#119#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/Resource.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/src/Core/Resources/FileResource.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/src/Core/IO/File.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-300">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/File.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <element signature="e#103#140#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/mutex">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#43#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NString.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engine/src/Core/String/NString.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-              <folding>
-                <element signature="e#43#90#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Math/LinearAlgebra/Matrix.hpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="172" column="30" lean-forward="true" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
@@ -83,15 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Engine/src/math/linearalgebra/Vector.hpp" />
-        <option value="$PROJECT_DIR$/shell.nix" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Engine/src/graphics/Window.hpp" />
-        <option value="$PROJECT_DIR$/Engine/src/core/common.hpp" />
-        <option value="$PROJECT_DIR$/Engine/src/core/string/NString.hpp" />
-        <option value="$PROJECT_DIR$/Engine/src/core/math/linearalgebra/Vector.hpp" />
-        <option value="$PROJECT_DIR$/Engine/src/core/math/linearalgebra/Matrix.hpp" />
-        <option value="$PROJECT_DIR$/Engine/src/core/math/linearalgebra/Ray.hpp" />
         <option value="$PROJECT_DIR$/Engine/src/core/io/internal/Broadcaster.hpp" />
         <option value="$PROJECT_DIR$/Engine/src/core/io/internal/broadcast/Broadcaster.hpp" />
         <option value="$PROJECT_DIR$/Engine/src/core/io/internal/signal/Signal.hpp" />
@@ -114,17 +182,34 @@
         <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/VirtualFileSystem.cpp" />
         <option value="$PROJECT_DIR$/Engine/src/Core/IO/VirtualFileSystem.cpp" />
         <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/VirtualFileSystem.hpp" />
-        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Nyarlathotep.hpp" />
-        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Core.hpp" />
         <option value="$PROJECT_DIR$/Sandbox/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Engine/src/Core/IO/VirtualFilesystem.cpp" />
         <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/VirtualFilesystem.hpp" />
-        <option value="$PROJECT_DIR$/Engine/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/Engine/src/Core/IO/Filesystem.cpp" />
         <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Filesystem.hpp" />
         <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Math/LinearAlgebra/Matrix.hpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Socket.hpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Packet.hpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/String/NStringSTD.cpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NStringSTD.hpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/IO/Filesystem.cpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/IO/VirtualFilesystem.cpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NStringDepr.hpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/String/NStringDepr.cpp" />
         <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NString.hpp" />
         <option value="$PROJECT_DIR$/Engine/src/Core/String/NString.cpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Nyarlathotep.hpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Core.hpp" />
+        <option value="$PROJECT_DIR$/Engine/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/String.hpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/FarbfeldResource.hpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/Resources/FarbfeldResource.cpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/Resources/ResourceManager.cpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/ResourceManager.hpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/Resource.hpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/IO/File.cpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/File.hpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/Resources/FileResource.cpp" />
+        <option value="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/FileResource.hpp" />
+        <option value="$PROJECT_DIR$/Engine/src/Core/Resources/Resource.cpp" />
         <option value="$PROJECT_DIR$/Sandbox/src/main.cpp" />
       </list>
     </option>
@@ -134,10 +219,9 @@
     <option name="configuration" value="0-Engine" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1297" />
-    <option name="y" value="1113" />
-    <option name="width" value="1229" />
-    <option name="height" value="1013" />
+    <option name="y" value="1056" />
+    <option name="width" value="2560" />
+    <option name="height" value="1104" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -145,6 +229,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,23 +267,38 @@
               <item name="Nyarlathotep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nyarlathotep" type="462c0819:PsiDirectoryNode" />
               <item name="Engine" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nyarlathotep" type="b2602c69:ProjectViewProjectNode" />
               <item name="Nyarlathotep" type="462c0819:PsiDirectoryNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nyarlathotep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nyarlathotep" type="462c0819:PsiDirectoryNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="IO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nyarlathotep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nyarlathotep" type="462c0819:PsiDirectoryNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Nyarlathotep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Nyarlathotep" type="462c0819:PsiDirectoryNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Core" type="462c0819:PsiDirectoryNode" />
               <item name="String" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nyarlathotep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nyarlathotep" type="462c0819:PsiDirectoryNode" />
-              <item name="Engine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Nyarlathotep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Nyarlathotep" type="462c0819:PsiDirectoryNode" />
-              <item name="Engine" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Nyarlathotep" type="b2602c69:ProjectViewProjectNode" />
@@ -215,24 +315,28 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Engine/src/Core/String" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Engine/src/Core/String" />
+      <recent name="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Engine/src/Core/IO" />
+      <recent name="$PROJECT_DIR$/Engine/src/Core/Resources" />
       <recent name="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Event" />
       <recent name="$PROJECT_DIR$/Engine/include/Nyarlathotep/Core" />
       <recent name="$PROJECT_DIR$/Engine/include/Nyarlathotep/core/broadcast" />
-      <recent name="$PROJECT_DIR$/Engine/include/Nyarlathotep" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,29 +391,39 @@
       <workItem from="1567007626605" duration="4397000" />
       <workItem from="1567064635324" duration="13128000" />
       <workItem from="1567161754447" duration="21453000" />
-      <workItem from="1567184205429" duration="1876000" />
+      <workItem from="1567184205429" duration="2093000" />
+      <workItem from="1567243295769" duration="112000" />
+      <workItem from="1567243494439" duration="315000" />
+      <workItem from="1567243832145" duration="110000" />
+      <workItem from="1567243957095" duration="2561000" />
+      <workItem from="1567259261840" duration="1440000" />
+      <workItem from="1567325806778" duration="488000" />
+      <workItem from="1567366518370" duration="6050000" />
+      <workItem from="1567523497856" duration="3325000" />
+      <workItem from="1567596206694" duration="15548000" />
+      <workItem from="1567692644167" duration="4913000" />
+      <workItem from="1567708277738" duration="4615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81820000" />
+    <option name="totallyTimeSpent" value="121514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1056" width="2560" height="1104" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.089144215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07884311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3296593" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36372745" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43787575" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4779559" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3977956" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.20340681" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.22945891" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -324,77 +438,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/stdlib.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/cstdlib">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="74" column="18" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/graphics/Window.cpp" />
-    <entry file="file://$PROJECT_DIR$/shell.nix">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/core/io/internal/Broadcaster.cpp" />
-    <entry file="file://$PROJECT_DIR$/Engine/src/core/io/internal/Broadcaster.hpp" />
-    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/alloc_traits.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="394" column="38" selection-start-line="394" selection-start-column="38" selection-end-line="394" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/core/io/internal/signal/Signal.cpp" />
-    <entry file="file://$PROJECT_DIR$/Engine/src/core/io/internal/signal/Signal.hpp" />
-    <entry file="file://$PROJECT_DIR$/Engine/src/graphics/Window.hpp" />
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Math/LinearAlgebra/Ray.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/Core/Broadcast/Broadcaster.cpp" />
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Broadcast/Broadcaster.hpp" />
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Event/Event.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="59" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="12" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/MessageBus/SampleMessage.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/Core/MessageBus/BusNode.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Engine/src/Core/MessageBus/MessageBus.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -457,62 +500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/shared_ptr_base.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="636" column="6" selection-start-line="636" selection-start-column="6" selection-end-line="636" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Nyarlathotep.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#120#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/shared_ptr.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Core.hpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/stl_map.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sandbox/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/Core/IO/VirtualFilesystem.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/stl_vector.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="215" column="10" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -523,71 +514,280 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/Core/IO/Filesystem.cpp">
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Math/LinearAlgebra/Matrix.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state>
+          <caret line="172" column="30" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/VirtualFilesystem.hpp">
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Socket.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="e#109#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Packet.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/IO/Packet.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/IO/Socket.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/basic_string.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="419" selection-start-line="419" selection-end-line="419" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/stl_vector.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="343" column="6" selection-start-line="343" selection-start-column="6" selection-end-line="343" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/MessageBus/SampleMessage.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/VirtualFilesystem.hpp" />
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/stringfwd.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/IO/VirtualFilesystem.cpp" />
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/type_traits">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="1513" column="8" lean-forward="true" selection-start-line="1513" selection-start-column="8" selection-end-line="1513" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/stl_map.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="98" column="10" selection-start-line="98" selection-start-column="10" selection-end-line="98" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/shared_ptr_base.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="969" selection-start-line="969" selection-end-line="969" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/thread">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="239" column="4" selection-start-line="239" selection-start-column="4" selection-end-line="239" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/IO/Filesystem.cpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/String/String.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Filesystem.hpp" />
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/String/NStringDepr.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/stl_algobase.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5491">
+          <caret line="323" column="20" selection-start-line="323" selection-start-column="20" selection-end-line="323" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Nyarlathotep.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NStringDepr.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Core.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
-            <element signature="e#130#167#0" expanded="true" />
+            <element signature="e#360#377#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///nix/store/sr4253np2gz2bpha4gn8gqlmiw604155-glibc-2.27-dev/include/sys/stat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="204" column="11" selection-start-line="204" selection-start-column="11" selection-end-line="204" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Engine/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="47" lean-forward="true" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="255">
+          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/Filesystem.hpp">
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/String.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        <state relative-caret-position="578">
+          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///nix/store/sr4253np2gz2bpha4gn8gqlmiw604155-glibc-2.27-dev/include/bits/stat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="91" column="20" selection-start-line="91" selection-start-column="20" selection-end-line="91" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/FarbfeldResource.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/Resources/ResourceManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/Resources/FarbfeldResource.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding>
-            <element signature="e#116#153#0" expanded="true" />
+            <element signature="e#42#101#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Math/LinearAlgebra/Matrix.hpp">
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/std_mutex.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="172" column="30" lean-forward="true" selection-start-line="172" selection-start-column="30" selection-end-line="172" selection-end-column="30" />
+        <state relative-caret-position="255">
+          <caret line="161" column="8" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/String/NString.hpp">
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/mutex">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="255">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Engine/src/Core/String/NString.cpp">
+    <entry file="file:///nix/store/d4n93jn9fdq8fkmkm1q8f32lfagvibjk-gcc-7.4.0/include/c++/7.4.0/bits/shared_ptr.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        <state relative-caret-position="149">
+          <caret line="243" column="6" selection-start-line="243" selection-start-column="6" selection-end-line="243" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/IO/File.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/IO/File.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
-            <element signature="e#43#90#0" expanded="true" />
+            <element signature="e#103#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/Resources/FileResource.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/FileResource.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#119#156#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/Resource.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/src/Core/Resources/Resource.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Engine/include/Nyarlathotep/Core/Resources/ResourceManager.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#126#166#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sandbox/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#43#62#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="289">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
         </state>
       </provider>
     </entry>
